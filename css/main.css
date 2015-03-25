@@ -1,0 +1,208 @@
+/* BLUE: #24C0D9;
+BLACK: #5E5865;
+Gray: #666;
+Dark Gray: #727272;
+*/
+/* GENERAL STYLES
+================================================ */
+
+body {
+    font-family: 'avenir', roman;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'avenir', roman;
+    font-weight: 400;
+}
+h1 {
+    font-size: 4.5em;
+    font-weight: 300;
+}
+h2 {
+    font-size: 1.8em;
+    color: #606060;
+}
+h3 {
+    font-size: 1.7em;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #111;
+}
+p {
+    font-size: 24px;
+    color: #727272;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+a {
+    font-size: 24px;
+    font-family: 'avenir', roman;
+    color: #24C0D9;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+a:hover {
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+.section {
+    padding: 75px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border-bottom: 1px solid #24C0D9;
+}
+.button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #5F5F5F;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.button:hover {
+    text-decoration: none;
+    background: #454545;
+    border-color: #454545;
+}
+
+/* NAVIGATION
+================================================ */
+
+.navbar-brand {
+    padding: 5px 15px;
+    max-width: 220px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #949494;
+    margin-right: 8px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #24C0D9;
+}
+/* HEADER
+================================================ */
+.header-logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 1250px;
+}
+
+#home-area {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: #3175FE;
+}
+#home-area .container {
+    padding-top: 200px;
+    padding-bottom: 65px;
+}
+.home-content {
+    color: #fff;
+    padding-top: 100px;
+}
+.home-content h1 {
+    text-transform: capitalize;
+    font-weight: 200;
+}
+.home-content p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: .3px;
+    line-height: 1.7em;
+    margin: 30px 0;
+}
+.home-content .home {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.home-content .home:hover {
+    background: #fff;
+    color: #222;
+}
+.home-feature {}
+
+/* PORTFOLIO
+================================================ */
+
+#portfolio {
+    background: #fff;
+    border-bottom: 1px solid #efefef;
+}
+.portfolio-filter {
+    position: relative;
+    right: 0;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.portfolio-filter a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #6A6F73;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    margin: 10px 0;
+}
+.portfolio-filter a:hover {
+    color: #55DDF3;
+    border: 1px solid #55DDF3;
+    background: #55DDF3;
+    color: #fff;
+}
+.single-portfolio {
+    float: left;
+    width: 25%;
+}
+.single-portfolio a:hover {
+    background: #41C8DE;
+}
+
+
+
+/* FOOTER
+================================================ */
+
+footer {
+    background: #0000FF;
+    padding: 40px 0;
+
+}
+
+.footer-menu li:last-child {
+    border-right: none;
+
+}
+.footer-menu a {
+    color: #A8A8A8;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 18px;
+
+}
+
+.container{
+     margin: 0 auto;
+     
+}
+
+.footer-menu a:hover {
+    color: #41C8DE;
+    text-decoration: none;
+}
+.footer-content p {
+    color: #34495E;
+    font-size: 18px;
+
+
+}
