@@ -14,11 +14,8 @@
     .section-title {
         text-align: center;
     }
-    .footer-menu {
-        text-align: center;
-    }
-    .footer-content {
-        text-align: center;
+    .footer-menu div {
+        margin: 2em;
     }
 }
 /* Extra Small Devices (Phone, 480px and up) */
@@ -26,6 +23,10 @@
 @media (max-width: 480px) {
     .home-content {
         padding-top: 0px;
+    }
+
+    .footer-menu div {
+        margin: 2em;
     }
 
 }
