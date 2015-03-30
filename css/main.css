@@ -47,7 +47,7 @@ a {
 
 img {
 
-    float: left;
+      margin-left: 200px;
 }
 
 a:hover {
@@ -108,7 +108,7 @@ a:hover {
 #home-area {
     background-position: 50% 50%;
     background-size: cover;
-    background-color: #3175FE;
+    background-color:rgba(20, 97, 250, 1);
 }
 #home-area .container {
     padding-top: 200px;
