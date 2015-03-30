@@ -35,7 +35,6 @@ p {
     color: #727272;
     line-height: 1.5em;
     font-weight: 400;
-    float: right;
 }
 a {
     font-size: 24px;
@@ -47,7 +46,7 @@ a {
 
 img {
 
-    float: right;
+    float: left;
 }
 
 a:hover {
