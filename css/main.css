@@ -14,6 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'avenir', roman;
     font-weight: 400;
+    float: right;
 }
 h1 {
     font-size: 4.5em;
@@ -34,6 +35,7 @@ p {
     color: #727272;
     line-height: 1.5em;
     font-weight: 400;
+    float: right;
 }
 a {
     font-size: 24px;
@@ -42,6 +44,12 @@ a {
     font-weight: 400;
     letter-spacing: .3px;
 }
+
+img {
+
+    float: right;
+}
+
 a:hover {
     -webkit-transition: background-color .3s ease;
     -moz-transition: background-color .3s ease;
