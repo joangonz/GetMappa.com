@@ -4,6 +4,35 @@
     .home-feature {
         margin-top: 40px;
     }
+
+    .description {
+        text-align: center;
+    }
+
+    .description img {
+        display: block;
+
+        margin-top: 2em;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        
+    }
+
+    .iphone {
+        width: 50%; 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-menu div {
+        border-bottom: 1px solid #3d65b7;
+        padding: 1em;
+    } 
+
+    .footer-menu div:last-child {
+        border-bottom: none;
+    }
 }
 /* Small devices (tablets, 767px and up) */
 
@@ -16,6 +45,35 @@
     }
     .footer-menu div {
         margin: 2em;
+    }
+
+    .iphone {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .description img {
+        display: block;
+
+        margin-top: 2em;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        
+    }
+
+    .footer-menu div {
+        border-bottom: 1px solid #3d65b7;
+        padding: 1em;
+    } 
+
+    .footer-menu div:last-child {
+        border-bottom: none;
     }
 }
 /* Extra Small Devices (Phone, 480px and up) */
