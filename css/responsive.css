@@ -1,3 +1,35 @@
+@media (min-width: 992px) {
+    .home-feature {
+        margin-top: 40px;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .description img {
+        display: block;
+
+        margin-top: 2em;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        
+    }
+
+    .iphone {
+        width: 50%; 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-menu div {
+        border-bottom: 1px solid #3d65b7;
+        padding: 1em;
+    } 
+
+}
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (max-width: 992px) {
